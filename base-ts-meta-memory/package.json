@@ -1,7 +1,7 @@
 {
   "name": "base-bailey-json",
   "version": "1.0.0",
-  "description": "Chatbot Para Soporte Técnico De Mantenimiento De Equipo De Cómputo Y De La Red De Datos Institucional",
+  "description": "Chatbot Para Soporte Técnico",
   "main": "dist/app.js",
   "type": "module",
   "scripts": {
