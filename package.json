@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@builderbot/database-mongo": "^1.2.5",
+    "dotenv": "^16.4.7"
+  }
+}
