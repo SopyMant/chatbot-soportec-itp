@@ -26,6 +26,7 @@ ARG PORT
 ENV PORT $PORT
 EXPOSE $PORT
 
+RUN mkdir -p /app/assets
 COPY --from=builder /app/assets ./assets
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/*.json /app/*-lock.yaml ./
