@@ -4,6 +4,7 @@
       <img src="https://builderbot.vercel.app/assets/thumbnail-vector.png" height="80">
     </picture>
     <h2 align="center">Chatbot de Soporte Técnico – Instituto Tecnológico de Pachuca</h2>
+    <h3 align="center">Desarrollado con BuilderBot</h3>
   </a>
 </p>
 
