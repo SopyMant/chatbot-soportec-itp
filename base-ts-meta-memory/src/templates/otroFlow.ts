@@ -26,9 +26,19 @@ export const otroFlow = addKeyword<Provider, Database>(['3'])
 //Flujo para Reportar un problema
 const reportesolicituFlow = addKeyword<Provider, Database>(EVENTS.ACTION)
     .addAnswer(
-        `Hola, si necesitas reportar un problema o hacer una solicitud relacionada con el equipo de cómputo o la red de datos, 
-puedes hacerlo a través del Sistema de Administración (SISAD). 
-Solo ingresa al siguiente enlace: https://administracion2.tecnm.mx/sisad2025/`,
+        `Asunto: Reporte de problemas y solicitudes en equipo de cómputo y red de datos
+
+Hola,
+
+Si necesitas reportar un problema o realizar una solicitud relacionada con el equipo de cómputo o la red de datos, te recordamos que puedes hacerlo a través del Sistema de Administración (SISAD).
+
+Para ello, ingresa al siguiente enlace: https://administracion2.tecnm.mx/sisad2025/.
+
+Por favor, elabora tu solicitud o reporte según tu departamento correspondiente. El Centro de Cómputo se encargará de atenderla.
+
+Una vez que se haya brindado una solución, será necesario elaborar la liberación de dicha solicitud.
+
+Gracias por tu colaboración.`,
     )
     .addAnswer('Para volver al menú principal, escribe *Menú*.')
 
